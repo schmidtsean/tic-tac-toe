@@ -1,9 +1,12 @@
 .box {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: grey;
   border: solid;
+  border-color: white;
   cursor: pointer;
+  font-size: 5rem;
+  text-align: center;
 }
 
 .row {
