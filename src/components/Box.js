@@ -6,7 +6,7 @@ const Box = (props) => {
   function toggleLetter() {
     if (letter === '') {
       setLetter (props.currentState)
-      props.changeTurn()
+      props.changeTurn(props.row, props.column)
     }
   }
 
